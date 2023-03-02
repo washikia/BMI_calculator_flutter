@@ -1,0 +1,9 @@
+# BMI_calculator_flutter
+
+![Screen_Recording_20230302_211458_1](https://user-images.githubusercontent.com/99208239/222427153-09811b2c-dce3-40d9-8466-18024797e9b8.gif)
+
+An app that calculates your BMI (body mass index) and provides simple interpretation.
+
+Although the functionality of the app is quite simple, it took quite long to finish this project. I attempted to replicate Rubel Vaalt's BMI calculator design in dribble. Along the way I learnt quite a lot about flutter and dart programming.
+Most importantly, I learnt how to customize flutter widgets. That means, while we have a plethora of widgets implemeted for us, for example the Material Design Class, we are not bounded by the things available, we can actually implement our own widget. When a componenet does not have an onPressed property, we can wrap it around a GestureDetector widget which allows us to detect a range of cursor motions including tap, long tap and hover. I learnt about flutter themes which is a great way to maintain same theme across multiple pages. Which brings us to the next great leap I took in the project. Until now I was building apps that were only single pages, here I learnt how to make apps with multiple pages using Navigator class. I also learnt about named navigators but I did not need to use it here. The flutter slider widget is a very handy tool.
+As I mentioned earlier, I learnt new dart concpets along the way. These are: the difference between final and const variables (mainly that const variable must be assigned value immediately, final variable can receive value in some other place in the program after its declaration), dart enums, ternary operators (which a kind of augmented statement for if/else), passing functions as objects to dart functions and constructors and dart maps (syntax is similar to that of Java).
